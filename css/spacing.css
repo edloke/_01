@@ -1,0 +1,68 @@
+/*Gap, Padding and Margin Styling*/
+
+/*  Gaps Override 80px  */
+.gap-80{
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+/*  Gaps Override 40px  */
+.gap-40{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/*  Gaps Override 16px  */
+.gap-16{
+  gap: 16px;
+}
+
+.gap-28{
+  display: flex;
+  flex-direction: column;
+  gap: 28px !important;
+}
+
+.mb-40{
+  margin-bottom: 40px;
+}
+
+.mb-20{
+  margin-top: 20px;
+}
+
+/*  Paddings Override 0  */
+.padding-bottom-0{
+  padding-bottom: 0;
+}
+.padding-left-0{
+  padding-left: 0;
+}
+.padding-top-0{
+  padding-top: 0;
+}
+.padding-right-0{
+  padding-right: 0;
+}
+
+.padding-bottom-40{
+  padding-bottom: 40px;
+}
+
+@media (min-width: 992px){
+  /*  Paddings Override 20px  */
+  .padding-left-20{
+    padding-left: 20px;
+  }
+  .padding-right-20{
+    padding-right: 20px;
+  }
+}
+
+/*  Margin Override 0  */
+.margin-bottom-0{
+  margin-bottom: 0;
+}
+
