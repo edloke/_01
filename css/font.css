@@ -11,6 +11,16 @@
     line-height: normal;
 }
 
+.custom-sub-title{
+    color: var(--light-screen-white);
+    font-family: Comfortaa;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    white-space: wrap;
+}
+
 /* Heading 1 - 24px - Bold */
 .custom-h1{
     color: var(--just-white);
@@ -177,6 +187,15 @@
         line-height: normal;
     }
 
+    .custom-sub-title{
+        color: var(--light-screen-white);
+        font-family: Comfortaa;
+        font-size: 66px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
     /* Heading 1 - 30px - Bold */
     .custom-h1{
         color: var(--just-white);
@@ -194,7 +213,7 @@
     .custom-intro{
         color: var(--just-white);
         font-family: Comfortaa;
-        font-size: 42px;
+        font-size: 40px;
         font-style: normal;
         font-weight: 600;
         line-height: 150%;

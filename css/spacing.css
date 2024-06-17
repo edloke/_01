@@ -66,3 +66,67 @@
   margin-bottom: 0;
 }
 
+
+.ep-pos{
+  margin-top: 5rem;
+  margin-left: 3rem;
+}
+
+.mdp-pos{
+  margin-top: 33rem;
+  margin-left: 0rem;
+}
+
+.ps-pos{
+  margin-top: 15rem;
+}
+
+.d-pos{
+  margin-top: 38rem;
+  margin-right: 2rem;
+}
+
+.vs-pos{
+  margin-top: 10rem;
+  margin-right: 1rem;
+}
+
+.m-pos{
+  margin-top: 30rem;
+  margin-right: 0rem;
+}
+
+
+/* Mobile View */
+@media (min-width: 992px){
+  .ep-pos{
+    margin-top: 4rem;
+    margin-left: 8rem;
+  }
+  
+  .mdp-pos{
+    margin-top: 43rem;
+    margin-left: 4rem;
+  }
+  
+  .ps-pos{
+    margin-top: 12rem;
+  }
+  
+  .d-pos{
+    margin-top: 45rem;
+    margin-right: 6rem;
+  }
+  
+  .vs-pos{
+    margin-top: 4rem;
+    margin-right: 2rem; 
+  }
+  
+  .m-pos{
+    margin-top: 36rem;
+    margin-right: 4rem;
+  }
+}
+
+

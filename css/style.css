@@ -1,5 +1,31 @@
 /*Custom CSS Styling*/
 
+/*Default Gradient Colours*/
+:root {
+	--gradient-shadow: linear-gradient(
+		45deg,
+    #051937,
+    #3182fb,
+    #f4f8ff,
+    #dcfff9,
+    #c5fff5,
+    #0affd6
+	);
+  --gradient-shadow: linear-gradient(
+		45deg,
+    #000000,
+    #014b4e, 
+    #007c68,
+    #0affd6,
+    #67beb0,
+    #0affd6,
+    #007c68,
+    #014b4e
+    
+    
+	);
+}
+
 /*Console Container - 100% vertical height*/
 .console-container{
   display: flex;
@@ -71,6 +97,8 @@
   width: 650px;
   height: 650px;
   border-radius: 100%;
+  /* background: var(--gradient-shadow);
+  background-size: 400%; */
   background-image: linear-gradient(#051937 50%, #0affd6);
   filter: blur(250px);
   transition: all 10ms ease-out;
@@ -80,6 +108,22 @@
   top: 0;
   transform: translate(calc(-50% + 15px), -50%);
   z-index: -10;
+  animation: animate1 120s linear infinite;
+}
+
+
+
+
+@keyframes animate1 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 300% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
 
 /*Text Position*/
@@ -154,18 +198,7 @@
   transform: scale(2);
 }
 
-/*Default Gradient Colours*/
-:root {
-	--gradient-shadow: linear-gradient(
-		45deg,
-    #051937,
-    #3182fb,
-    #f4f8ff,
-    #dcfff9,
-    #c5fff5,
-    #0affd6
-	);
-}
+
 
 /*Glowing Shadow Effect*/
 .shadow {
@@ -269,7 +302,6 @@
     }
     100% {
       background-position: 0 0;
-      
     }
   }
 
@@ -342,7 +374,7 @@
   display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: center;
+/* align-items: center; */
 gap: 36px;
 align-self: stretch;
 }
@@ -350,8 +382,8 @@ align-self: stretch;
 .project-headings{
   display: flex;
 flex-direction: column;
-justify-content: center;
-align-items: center;
+/* justify-content: center;
+align-items: center; */
 align-self: stretch;
 }
 
@@ -368,4 +400,19 @@ align-self: stretch;
 
 .cursor-disabled{
   cursor: none;
+}
+
+
+.separator-desktop{
+  display: none;
+}
+
+@media (min-width: 992px){
+  .separator-desktop{
+    display: unset;
+  }
+  
+  .separator-mobile{
+    display: none;
+  }
 }
